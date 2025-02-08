@@ -1,0 +1,240 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Back to Home Button */
+  .back-home-btn {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .back-home-btn:hover {
+    background-color: #4e0785;
+  }
+  
+  /* Dashboard Title */
+  .dashboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+  
+  /* Table Styling */
+  .dashboard-table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .dashboard-table th,
+  .dashboard-table td {
+    border: 1px solid #6a0dad;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dashboard-table th {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .dashboard-table tbody tr:nth-child(even) {
+    background-color: #f5e1ff;
+  }
+  
+  .dashboard-table tbody tr:hover {
+    background-color: #e1c4ff;
+  }
+  
+  /* Actions Column */
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Edit and Delete Buttons */
+  .edit-btn,
+  .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .edit-btn {
+    color: #1d72b8;
+  }
+  
+  .edit-btn:hover {
+    color: #125a94;
+  }
+  
+  .delete-btn {
+    color: #e63946;
+  }
+  
+  .delete-btn:hover {
+    color: #c62828;
+  }
+  
+  /* No Data */
+  .no-data {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+  }
+  
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .cancel-btn,
+  .update-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45%;
+  }
+  
+  .cancel-btn {
+    background-color: #bbb;
+    color: white;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #999;
+  }
+  
+  .update-btn {
+    background-color: #6a0dad;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background-color: #4e0785;
+  }
+
+  
+  /* Home Page Styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5e8ff;
+  }
+  
+  .home-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6a0dad;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .student-form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .student-form input {
+    border: 1px solid #6a0dad;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .student-form input:focus {
+    outline: none;
+    border-color: #4b0082;
+  }
+  
+  /* Buttons */
+  .submit-btn, .dashboard-btn {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover, .dashboard-btn:hover {
+    background-color: #4b0082;
+  }
+  
+  .dashboard-btn {
+    margin-top: 15px;
+    width: 320px;
+  }
+  
